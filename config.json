@@ -1,0 +1,25 @@
+{
+    "base_token": "WETH",
+    "quote_token": "USDC",
+    "dex_protocol": "aerodrome",
+    "trade_size_usd": 120,
+    "min_quote_reserve_usd": 60,
+    "min_position_usd": 20,
+    "max_slippage_bps": 80,
+    "rsi_period": 14,
+    "breakout_rsi_min": 56,
+    "exit_rsi_max": 47,
+    "profit_take_rsi": 72,
+    "bb_period": 20,
+    "bb_std_dev": 2.0,
+    "breakout_percent_b": 0.85,
+    "breakdown_percent_b": 0.30,
+    "min_bandwidth": 0.018,
+    "bandwidth_expansion_factor": 1.2,
+    "cooldown_iterations": 1,
+    "anvil_funding": {
+        "ETH": 10,
+        "WETH": 3,
+        "USDC": 15000
+    }
+}

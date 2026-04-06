@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "chain": "base",
+  "strategy": "base_neon_breakout",
+  "generated_at": "2026-04-06T05:00:59.721342+00:00",
+  "warnings": [],
+  "permissions": [
+    {
+      "target": "0x38869bf66a61cf6bdb996a6ae40d5853fd43b526",
+      "label": "MultiSend (Safe)",
+      "operation": 1,
+      "send_allowed": false,
+      "function_selectors": [
+        {
+          "selector": "0x8d80ff0a",
+          "label": "multiSend(bytes)"
+        }
+      ]
+    },
+    {
+      "target": "0x4200000000000000000000000000000000000006",
+      "label": "ERC-20: WETH",
+      "operation": 0,
+      "send_allowed": false,
+      "function_selectors": [
+        {
+          "selector": "0x095ea7b3",
+          "label": "approve(address,uint256)"
+        }
+      ]
+    },
+    {
+      "target": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "label": "ERC-20 (0x8335...2913)",
+      "operation": 0,
+      "send_allowed": false,
+      "function_selectors": [
+        {
+          "selector": "0x095ea7b3",
+          "label": "approve(address,uint256)"
+        }
+      ]
+    },
+    {
+      "target": "0xbe6d8f0d05cc4be24d5167a3ef062215be6d18a5",
+      "label": "Aerodrome (swap)",
+      "operation": 0,
+      "send_allowed": false,
+      "function_selectors": [
+        {
+          "selector": "0xa026383e",
+          "label": "exactInputSingle(ExactInputSingleParams)"
+        }
+      ]
+    },
+    {
+      "target": "0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43",
+      "label": "Aerodrome Router",
+      "operation": 0,
+      "send_allowed": false,
+      "function_selectors": [
+        {
+          "selector": "0x0dede6c4",
+          "label": "removeLiquidity(address,address,bool,uint256,uint256,uint256,address,uint256)"
+        }
+      ]
+    }
+  ]
+}
